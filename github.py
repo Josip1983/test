@@ -5,4 +5,4 @@ class Ucenik() :
         self.uspjeh=uspjeh
 
 ucenik1=Ucenik("Josip", 15, 10)
-print(ucenik1.ime)
+print(f"Ucenik {ucenik1.name} ima {ucenik1.godine} godina i uspjeh {ucenik1.uspjeh}")
